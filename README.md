@@ -166,27 +166,6 @@ Name    Username    Password    Phone    BloodGroup
 
 ---
 
-## Edge Cases & Validation
-
-- **Empty fields** — All forms check for empty inputs and show a dialog message.
-- **Duplicate username** — Registration and Admin Add both check `usernameExists()` before saving.
-- **No row selected** — Admin Update/Delete show a message if no table row is selected.
-- **Delete confirmation** — Admin Delete requires a Yes/No confirmation.
-- **Empty data file** — If `Data.txt` doesn't exist, it's created automatically. If it's empty, the table simply shows no rows.
-
----
-
-## Make It Your Own
-
-Some ideas to extend this project:
-
-- **Admin login validation** — Store admin credentials in a separate file or config.
-- **Blood stock persistence** — Instead of hardcoded values, store stock in a file and let admins update it.
-- **Password hashing** — Don't store plain-text passwords.
-- **Search/filter** — Add a search bar to filter users in the admin table.
-- **Export to PDF / CSV** — Generate reports for instructors.
-
----
 
 ## Author
 
