@@ -9,6 +9,7 @@ Icon
 
 # Compiled Java
 *.class
+out/
 
 # IDE
 *.iml
